@@ -1,0 +1,111 @@
+.ombre-texte {
+    text-shadow: 4px 4px 2px #000;
+}
+
+div {
+    margin: 15px;
+    font-size: 150%;
+    width: 272px;
+    padding-left: 3px;
+    border: 1px solid silver;
+}
+
+.rien {
+    white-space: nowrap;
+}
+
+.clip {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.string {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ", etc.";
+}
+
+h1 {
+    font-family: "Lucida Console";
+}
+
+/*
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited #yo  {
+    text-decoration: line-through;
+    color: black;
+}
+a:hover {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}*/
+#yo {
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    background: #7E3661;
+}
+
+#yo:visited {
+    color: #FCB941;
+}
+
+#yo:after {
+    font-size: 1.5em;
+}
+
+#ya {
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    background: #7E3661;
+}
+
+#ya:visited {
+    color: #FCB941;
+}
+
+#ya:after {
+    font-size: 1.5em;
+
+}
+
+#yeye {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#yeye:hover {
+    background-color: rgb(125, 165, 205);
+}
+
+.box {
+    border: 1px solid black;
+    margin-left: 30px;
+    width: 200px;
+    padding: 10px;
+}
+
+.ligne1:first-line {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h1:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: url(arrow.gif) no-repeat;
+    background-size: 100%;
+}
